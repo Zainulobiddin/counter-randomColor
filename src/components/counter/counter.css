@@ -1,0 +1,39 @@
+.minus {
+    background-color: red;
+}
+
+.reset {
+    background-color: black;
+}
+
+.plus {
+    background-color: green;
+}
+.minus, .plus, .reset {
+    padding: 8px 15px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.btns {
+    display: flex;
+    gap: 9px;
+}
+.green {
+    color: green;
+}
+.red {
+    color: red;
+}
+.black {
+    color: black;
+}
+.counter {
+    width: 200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    
+}
