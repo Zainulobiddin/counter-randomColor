@@ -6,7 +6,7 @@ export default function BgColor() {
 
   const handleRandomNumber = () => {
     ramdomNumber = Number(
-      (Math.random()).toString(8).split(".")[1].slice(0, 6));
+    (Math.random()).toString().split(".")[1].slice(0, 6));
     setRandomNumber(ramdomNumber);
     console.log(ramdomNumber);
   };
@@ -28,6 +28,7 @@ export default function BgColor() {
         <h2>Background color</h2>
         <button onClick={handleRandomNumber}>CLICK ME</button>
         <p>{`#${ramdomNumber}`}</p>
+        console.log({ramdomNumber})
       </div>
     </div>
   );

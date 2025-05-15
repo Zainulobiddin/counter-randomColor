@@ -3,12 +3,14 @@
     gap: 10px;
 }
 .check {
-    width: 500px;
+    width: 80%;
     margin: 50px auto;
     align-items: center;
     display: flex;
     flex-direction: column;
     gap: 10px;
+    border: 1px solid rgb(215, 209, 209);
+    border-radius: 14px;
 }
 
 input, button {
@@ -18,4 +20,14 @@ input, button {
     border: 1px solid rgb(214, 214, 214);
     padding: 8px 12px;
     border-radius: 8px;
+}
+
+@media (max-width: 700px) {
+.checkNumber {
+    flex-direction: column;
+}
+.check {
+    padding: 15px;
+
+}
 }

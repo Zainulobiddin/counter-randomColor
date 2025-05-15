@@ -19,13 +19,13 @@
     display: flex;
     gap: 9px;
 }
-.green {
+.Green {
     color: green;
 }
-.red {
+.Red {
     color: red;
 }
-.black {
+.Black {
     color: black;
 }
 .counter {
@@ -35,5 +35,4 @@
     flex-direction: column;
     gap: 10px;
     align-items: center;
-    
 }

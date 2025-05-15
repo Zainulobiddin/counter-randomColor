@@ -1,0 +1,8 @@
+.clock {
+    width: 200px;
+    margin: 30px auto;
+    padding: 8px 15px;
+    text-align: center;
+    background-color: rgb(218, 212, 212);
+    border-radius: 13px;
+}

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import './counter.css'
 
 
@@ -24,7 +24,7 @@ export default function Counter() {
             <button onClick={() => handleReset()} className='reset'>reset</button>
             <button onClick={() => handlePlus()} className='plus'>+</button>
         </div>
-        <h2 className={count>0 ? 'green' : count < 0 ?  'red' : 'black' } >{count}</h2>
+        <h2 className={count>0 ? 'Green' : count < 0 ?  'Red' : 'Black' } >{count}</h2>
     </div>
   )
 }
